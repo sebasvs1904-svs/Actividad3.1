@@ -1,0 +1,19 @@
+*{
+    margin: .85em;
+}
+button{
+    text-decoration: none;
+    padding: 10px; 
+    font-weight: 600; 
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5c0057; 
+    border-radius: 6px;
+    border: 2px solid #410000;
+}
+body{
+    background-color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 40px;
+
+}

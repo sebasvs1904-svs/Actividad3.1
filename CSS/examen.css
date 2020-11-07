@@ -1,0 +1,36 @@
+*{
+    margin: .5em;
+}
+input{
+    text-decoration: none;
+    padding: 10px; 
+    font-weight: 600; 
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #e20069; 
+    border-radius: 6px;
+    border: 2px solid #8d0047;
+}
+body{
+    background-color: rgb(0, 0, 99);
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select{
+    text-decoration: none;
+    padding: 10px; 
+    font-weight: 600; 
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #6900e2; 
+    border-radius: 6px;
+    border: 2px solid #49008d;
+
+}

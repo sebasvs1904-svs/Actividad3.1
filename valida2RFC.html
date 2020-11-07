@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/rfc.css">
+	<link rel="stylesheet" href="CSS/boton.css">
+
+<title>Control submit por evento formulario</title>
+</head>
+<body>
+	<script >
+		</script>
+	<section id="form">
+		<form  method="get"> 
+			<fieldset>
+				<legend >Datos personales</legend>
+				<label> Nombre</label><input type="text" name="nam"  size="20"onkeypress="return soloLetras(event)"/><br>
+				<label>Apellido paterno</label><input type="text" name="ape1"  size="20" onkeypress="return soloLetras(event)"/><br>
+				<label>Apellido materno</label><input type="text" name="ape2"  size="20" onkeypress="return soloLetras(event)"/><br>
+				<label>Fecha de nacimiento</label><input type="date" name="fech"   /><br>
+				<label>RFC</label> <input type="text" name="txtRFC" maxlength="13" size="15"/>
+			<br/>
+			
+			<input type="submit" onClick="return valida()" value="Validar RFC" class="boton"/> 
+			<a href="index.html">Regresar al index</a>
+				</fieldset>
+			<script type="text/javascript" src="js/rfc.js"></script>
+		</form>
+	</section>
+	
+</body>
+</html>
